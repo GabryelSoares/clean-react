@@ -12,7 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.4"
+  },
   "devDependencies": {
+    "@types/axios": "0.14.0",
     "@types/faker": "^5.1.2",
     "@types/jest": "25.2.1",
     "@types/node": "13.13.5",
