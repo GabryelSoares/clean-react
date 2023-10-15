@@ -12,7 +12,7 @@
     "jsx": "react",
     "rootDir": "src",
     "baseUrl": "src",
-    "paths":{
+    "paths": {
       "@/*": ["*"]
     },
     "allowJs": true,
@@ -20,5 +20,5 @@
   },
   "include": [
     "src"
-  ],
+  ]
 }
