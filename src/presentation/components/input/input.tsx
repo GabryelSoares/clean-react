@@ -6,7 +6,9 @@ type Props = React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>
 const Input: React.FC<Props> = (props) => {
   return (
     <div className={Styles.inputWrap}>
-      <input {...props} />
+      <input {...props} readOnly onFocus={event => {
+        event.target.readOnly = false
+      }} />
       <span className={Styles.status}>🔴</span>
     </div>
   )
